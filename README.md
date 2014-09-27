@@ -58,52 +58,52 @@ For each field the possible operators are determined it's type.
 
 boolean:
 
-- Yes - 1
-- No - 0
+- Yes (1)
+- No (0)
 
 date:
 
-- on - eq
-- not on - ne
-- after - gt
-- before - lt
-- between - bw
-- is empty - null
-- is not empty - nn
+- on (eq)
+- not on (ne)
+- after (gt)
+- before (lt)
+- between (bw)
+- is empty (null)
+- is not empty (nn)
 
 list:
 
-- any of - in
-- equal - eq
+- any of (in)
+- equal (eq)
 
 number:
 
-- = - eq
-- != - ne
-- > - gt
-- < - lt
-- is empty - null
-- is not empty - nn
+- = (eq)
+- != (ne)
+- > (gt)
+- < (lt)
+- is empty (null)
+- is not empty (nn)
 
 text:
 
-- equals - eq
-- not equal - ne
-- starts with - sw
-- contains - ct
-- finishes with - fw
-- is empty - null
-- is not empty - nn
+- equals (eq)
+- not equal (ne)
+- starts with (sw)
+- contains (ct)
+- finishes with (fw)
+- is empty (null)
+- is not empty (nn)
 
 time:
 
-- at - eq
-- not at - ne
-- after - gt
-- before - lt
-- between - bw
-- is empty - null
-- is not empty - nn
+- at (eq)
+- not at (ne)
+- after (gt)
+- before (lt)
+- between (bw)
+- is empty (null)
+- is not empty (nn)
 
 ## Usage
 
