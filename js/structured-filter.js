@@ -1,5 +1,5 @@
 ﻿/*!
- * structured-filter 1.0.3
+ * structured-filter 1.0.4
  *
  * Copyright (c) 2014, Olivier Giulieri
  *
@@ -498,7 +498,8 @@ $.widget( 'evol.structFilter', {
 		}else if(this._type==fTypes.bool){
 			op.label=evoLang.sEqual;
 			op.value=evoAPI.sEqual;
-			var val=(v.find('#value1').attr('checked')=='checked')?1:0;
+			var val= $('input:radio[name=value]:checked').val();
+			//var val=(v.find('#value1').attr('checked')=='checked')?1:0;
 			fv.label=(val==1)?evoLang.yes:evoLang.no;
 			fv.value=val;
 		}else{
